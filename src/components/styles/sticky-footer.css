@@ -1,0 +1,50 @@
+/* body { 
+  height: 100%; 
+  font-family: 'Avenir',sans-serif;
+  margin: 0;
+} */
+
+.navbar {
+    min-height: 90px;
+    background-color:rgba(64,86,161,.95); 
+    font-size: 18px;
+    opacity: 0.8;
+  }
+  
+  .navbar-default .navbar-nav>li>a {
+    color:black;
+    text-align: center;
+  }
+  
+  .navbar-brand{
+    position: absolute;  
+    left: 50%;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;
+  }
+  
+  /* .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: red;
+    background-color: transparent;
+  } */
+  
+  .navbar-default .navbar-nav>li>a:hover {
+    color: red;
+  }
+  
+  .footer {
+    /* overflow: hidden; */
+    text-align: center;
+    background-color:rgba(64,86,161,.85); 
+    width: 100%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    height: 8.5em;
+    padding-top: 2em;
+    bottom:0px;
+    /* min-width: 100vw; */
+    /* left: 0;     */
+    /* position: absolute; */
+  }
+  
+  
