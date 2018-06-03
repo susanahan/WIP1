@@ -88,7 +88,7 @@ function loginGoogleUser(req, res, next) {
   let accessToken = tokenObj.access_token;
   let userName = profileObj.name;
   let googleId = profileObj.googleId
-
+console.log('AM I HITTING THIS?')
   db
     .one('SELECT * FROM google WHERE g_email = ${userEmail}', {userEmail: userEmail})
     .then(function (data) {

@@ -1,0 +1,28 @@
+.formCustom{
+    font-size:18px;
+    text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    line-height:1.25;
+    color:#4056a1;
+    padding: 10px;
+    text-align:center;
+    margin: 130px auto 0;
+    width: 700px;
+    border: 3px solid green;
+    padding: 10px;
+    background-color:white;
+    border: 1px solid rgba(178,99,191,0.1);
+    box-shadow: 3px 3px 10px;
+  }
+
+.h2{
+    font-size:15px;
+}
+
+.h2FormQuestions{
+    font-size:15px;
+}
+
+
+#questions-pg{
+text-align: left;
+}

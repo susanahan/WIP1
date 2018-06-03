@@ -1,16 +1,20 @@
 const path = require('path');
+const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
   output: {
-    path: path.join(__dirname, '/dist'),
+    path: path.resolve(__dirname, '/dist'),
     filename: 'index_bundle.js'
   },
   devServer: {
     contentBase: path.join(__dirname, "dist"),
     compress: true,
-    port: 3003
+    port: 3003,
+    proxy: {
+      '/': 'http://localhost:3002/'
+    }
   },
   module: {
     rules: [
